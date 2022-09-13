@@ -3,11 +3,13 @@ package example;
 public class LoopExample {
     public static void main(String[] args) {
         String[] myStrings = { "Hello", "World", "No" };
-
-        // Index based looping
+        // System.out.println(myStrings[5]);
+        // // Index based looping
         for (int i = 0; i < myStrings.length; i++) {
             String current = myStrings[i];
             System.out.println(current);
+            // i++;
+            // System.out.println(myStrings[i]);
         }
 
         // For-range / for-in loop
