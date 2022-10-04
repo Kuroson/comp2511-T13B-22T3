@@ -1,4 +1,4 @@
-package calculator;
+package calculatorlab4;
 
 public class Calculator {
 
@@ -10,10 +10,17 @@ public class Calculator {
         return a - b;
     }
 
+    /* 
+     * precondition: a & B can't be null 
+     */
     public static Double multiply(Double a, Double b) {
         return a * b;
     }
 
+    /*
+     * precondition: either a or b can't be null
+     * b can't be zero
+     */
     public static Double divide(Double a, Double b) {
         return a / b;
     }
